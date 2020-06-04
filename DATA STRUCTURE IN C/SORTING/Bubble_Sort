@@ -15,10 +15,10 @@ void main()
 	{
 		scanf("%d",&a[i]) ;
 	}
-	printf("print element\n") ;
+	printf("print elements before sorting\n") ;
 	for(i=0;i<n;i++)
 	{
-		printf("%d",a[i]);
+		printf("%d\n",a[i]);
 
 	}
 	for(i=0;i<=n-2;i++)
@@ -29,8 +29,8 @@ void main()
 			{
 				t=a[j];
 				a[j]=a[j+1];
-        a[j+1]=t;			
-      }
+        			a[j+1]=t;			
+    			  }
 
 		}
 
@@ -38,7 +38,7 @@ void main()
 	printf("print element after sorting\n");
 	for(i=0;i<n;i++)
 	{
-		printf(" %d",a[i]);
+		printf(" %d\n",a[i]);
 
 	}
 	getch();
